@@ -1,0 +1,57 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--<title>Quick-Lyrics</title>-->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container col-xs-12">
+    <div class="jumbotron">
+        <div id="topheader">
+            <header>
+                <h1>Quick-Lyrics</h1>
+            </header>
+        </div>
+    </div>
+    <form>
+        <div class="container topRow">
+        <div class="textField">
+            <div class="inputFields">
+                <div class="input-group">
+                    <!--<div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Artiste Name</span>
+                    </div>-->
+                    <input type="text" id="artiste" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Enter Artist Name">
+                </div>
+                <br>
+                <div class="input-group">
+                    <!--<div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Song Name</span>
+                    </div>-->
+                    <input type="text" id= "title" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Enter Song Name">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="button getLyrics">
+            <button type="submit" class="btn btn-primary btn-lg">Get Lyrics!</button>
+        </div>
+    </div>
+    </form>
+
+    <div class="container bottom">
+        <p id="display" style="white-space: pre-line"> </p>
+        <!--<div id="player"> </div>-->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src = "js/scripts.js">
+    </script>
+    <!--<script src="js/youtube.js">
+    </script>-->
+    </div>
+</body>
+</html>
